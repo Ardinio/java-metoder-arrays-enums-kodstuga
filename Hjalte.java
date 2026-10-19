@@ -7,8 +7,8 @@ public class Hjalte {
         return poang;
     }
 
-    public int setPoang(int score) {
-        return poang += score;
+    public int setPoang(int poang) {
+        return this.poang += poang;
     }
 
     int highScore(int[] scores) {
